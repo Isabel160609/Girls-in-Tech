@@ -14,7 +14,7 @@
 	<name>GirlsInTeck</name>
 	<description>challenge  Girls In Teck</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
