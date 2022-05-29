@@ -7,7 +7,7 @@
 
 El objetivo será Construir/Diseñar una aplicación que utilice Geoposicionamiento para denunciar zonas inseguras o de riesgos (calles, restaurantes, supermercados, etc), que involucren a mujeres o a la comunidad LGBTIQ+.
 
-Los objetivos son:
+> Los objetivos son:
 
 ✅ Task 1 → Crear un una entidad user para poder registrarse en la aplicación.
 
@@ -19,9 +19,15 @@ Los objetivos son:
 
 ✅ Task 5 → Un cuestionario para poder introducir un punto nuevo en el mapa
 
-Cosas a implementar mas adelante:
+✅ Task 6 → Creamos un bean para que cuando arranque la aplicacion se carguen unos datos ficticios de diferentes puntos en la bbdd a modo de prueba
+
+> Cosas a implementar más adelante:
 
 ✅ Task 1 → Un chat para poder comunicarme con otros usuarios
+
+✅ Task 2 → Implementar diferentes tipos de usuarios con diferentes permisos por ejemplo que solo puedan añadir puntos definitivos los administradores
+
+✅ Task 3 → Implementar la seguridad de la aplicacion con jwt
 
 ## Stack and tools
 
