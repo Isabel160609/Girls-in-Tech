@@ -80,13 +80,24 @@ Cosas a implementar mas adelante:
   
   Presentacion proyecto
   
-  ![Presentacion proyecto](https://github.com/Isabel160609/Girls-in-Tech/blob/main/Recomendaciones.pdf)
+  ![Presentacion proyecto](https://github.com/Isabel160609/Girls-in-Tech/blob/main/Presentacio%20Girls%20In%20tech.pdf)
   
 
      
-  ## Contact info
+  ## Participantes en el proyecto
   
-  [Linkedin Isabel Domenech](https://github.com/Isabel160609/Girls-in-Tech/blob/main/Presentacio%20Girls%20In%20tech.pdf)
+  Aliuvys Ojeda 
+  [Linkedin Aliuvys Ojeda ](linkedin.com/in/aliuvys-ojeda)
+  
+  Isabel Domenech
+  [Linkedin Isabel Domenech](www.linkedin.com/in/isabeldomenech)
+  
+  Vanesa Ràfols
+  [Linkedin Vanesa Ràfols](www.linkedin.com/in/vanesarafols)
+  
+  Liudmyla Polchenko
+  [Liudmyla Polchenko](https://www.linkedin.com/in/mila-polchenko/)
+  
   
   ## License 
 
