@@ -23,12 +23,27 @@ Cosas a implementar mas adelante:
 
 ✅ Task 1 → Un chat para poder comunicarme con otros usuarios
 
+## Stack and tools
+
+  ### Backend
+  - Java
+  - Spring Boot
+  - MySql
+  - Eclipse/IntelliJ IDEA
+  - Git
+  - Postman
+  - Workbench
+  
+  ### Frontend
+  - Angular
+  - visual studio Code
+  
 
 ## Installation
 
 ### Los requisitos para poner en marcha este proyecto son:
 
-  # Backend
+  ### Backend
 
   - Tener JavaSE-17  En el caso de no tenerlo instalado podemos instalarlo pulsando el siguiente link: [JavaSE-17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
@@ -38,7 +53,7 @@ Cosas a implementar mas adelante:
 
   - Tener instalado lombok En el caso de no tenerlo instalado podemos instalarlo pulsando el siguiente link: [lombok](https://projectlombok.org/download)
 
-   # Frontend
+   ### Frontend
 
 
 
@@ -46,7 +61,7 @@ Cosas a implementar mas adelante:
 
  ### Puesta en marcha
  
-  # Backend
+  ### Backend
   
     Poner en marcha la base de datos MySql 
     
@@ -57,7 +72,7 @@ Cosas a implementar mas adelante:
     Iniciar Eclipse y levantar el proyecto desde alli   
   
    
-   # Frontend
+   ### Frontend
         
         
         
