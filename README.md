@@ -36,8 +36,12 @@ Cosas a implementar mas adelante:
   
   ### Frontend
   - Angular
+  - Git
   - visual studio Code
-  
+  - mapbox
+  - html
+  - css
+
 
 ## Installation
 
@@ -55,6 +59,7 @@ Cosas a implementar mas adelante:
 
    ### Frontend
 
+  - tener instado node en caso de no tenerlo instalado podemos instalarlo pulsando el siguiente link: [node](https://nodejs.org/es/download/)
 
 
 
@@ -74,10 +79,12 @@ Cosas a implementar mas adelante:
    
    ### Frontend
         
+       descargamos la carpeta en nuestro ordenador, nos posicionamos sobre la raiz del proyecto y escribimos en la terminal
+       
+       - npm install
+       -ng serve -o
         
-        
-        
-        
+       directamente abrira el navegador
         
   ## Roadmap and visuals
   
