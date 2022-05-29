@@ -87,13 +87,13 @@ Cosas a implementar mas adelante:
   ## Participantes en el proyecto
   
   Aliuvys Ojeda 
-  [Linkedin Aliuvys Ojeda ](linkedin.com/in/aliuvys-ojeda/)
+  [Linkedin Aliuvys Ojeda ](https://linkedin.com/in/aliuvys-ojeda/)
   
   Isabel Domenech
-  [Linkedin Isabel Domenech](www.linkedin.com/in/isabeldomenech/)
+  [Linkedin Isabel Domenech](https://www.linkedin.com/in/isabeldomenech/)
   
   Vanesa Ràfols
-  [Linkedin Vanesa Ràfols](www.linkedin.com/in/vanesarafols/)
+  [Linkedin Vanesa Ràfols](https://www.linkedin.com/in/vanesarafols/)
   
   Liudmyla Polchenko
   [Liudmyla Polchenko](https://www.linkedin.com/in/mila-polchenko/)
