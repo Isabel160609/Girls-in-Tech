@@ -1,0 +1,27 @@
+.map-container{
+  height: 100vh;
+
+}
+.map-container {
+  width: auto;
+  height: 79vh;
+}
+.mapboxgl-marker{
+  display: block;
+
+  background-color: rgba(128, 128, 128, 0.350);
+  border-radius: 50%;
+  padding: 40px 50px;
+
+}
+
+app-mapbox{
+  position: relative;
+}
+
+.login-button{
+  border: none;
+  display: inline;
+  background-color: transparent;
+
+}

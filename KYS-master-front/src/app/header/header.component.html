@@ -1,0 +1,58 @@
+<div class="main-container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="" width="100px" height="100px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Filtrar por:
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <button class="dropdown-item" (click)="safe.showSafe()"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" fill="green" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg> Zona segura</button>
+          <button class="dropdown-item" (click)="safe.showDanger()"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" fill="red" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg> Zona peligrosa</button>
+          <button class="dropdown-item" (click)="safe.showHelp()"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" fill="purple" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" fill= />
+            </svg> Puntos de ayuda</button>
+          <button class="dropdown-item" (click)="safe.showFriends()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+              class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg> Amigos</button>
+
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Mostrar todo</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="assets/Folleto.pdf" target="_blank">Recomendaciones</a>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link login-button" (click)="openAlertForm()">Avisar</button>
+      </li>
+      <li> <button class="nav-link login-button" (click)="openLoginModal()">Log In <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+        <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+      </svg></button>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<app-mapbox #safe></app-mapbox>
+</div>

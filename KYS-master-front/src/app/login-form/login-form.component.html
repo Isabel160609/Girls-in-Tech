@@ -1,0 +1,67 @@
+<div class="container">
+  <!-- <div class="modal-header"> -->
+  <button
+    class="close-btn"
+    type="button"
+    (click)="activeModal.dismiss()"
+  >
+    ×
+  </button>
+
+  <h4 class="modal-title text-primary">{{ isLoginMode ? "Login" : "Sign Up" }}</h4>
+
+  <!-- </div> -->
+  <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+    <div class="form-group">
+      <input
+        type="email"
+        id="email"
+        class="form-control"
+        #email="ngModel"
+        [(ngModel)] = "user.email"
+        name="email"
+        required
+        placeholder="email"
+      />
+      <div *ngIf="!email?.valid && (email?.dirty || email?.touched)" class="error">
+        <div *ngIf="email.errors" class="error-text">
+          Email must en format Email
+        </div>
+    </div>
+    </div>
+    <div class="form-group">
+      <input
+        type="password"
+        id="password"
+        #password="ngModel"
+        [(ngModel)] = "user.password"
+        class="form-control"
+        ngModel
+        name="password"
+        required
+        minlength="6"
+        placeholder="password"
+      />
+      <div *ngIf="!password?.valid && (password?.dirty || password?.touched)" class="error">
+        <div *ngIf="password.errors" class="error-text">
+          Password must be more then 6 caracters
+        </div>
+    </div>
+    </div>
+    <button
+      class="btn btn-outline-primary btn-lg btn-submit"
+      type="submit"
+      [disabled]="!loginForm.valid"
+    >
+      {{ isLoginMode ? "Login" : "Sign Up" }}
+    </button>
+    <!-- <span class="help">Need help signing in?</span> -->
+    <div>
+      <div>
+        <button type="button" class="signIn text-primary" (click)="onSwitchMode()">
+          {{ isLoginMode ? "Registrarse" : "Login" }}
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,68 @@
+<div class="container">
+  <button
+  class="close-btn"
+  type="button"
+  (click)="closeModal()"
+>
+  ×
+</button>
+    <h1>Alert Form</h1>
+    <!-- <form (ngSubmit)="onSubmit(alertForm)" #alertForm="ngForm"> -->
+      <form #alertForm="ngForm" (ngSubmit)="alertForm.form.valid && onSubmit(alertForm)">
+      <div class="form-group m-0">
+        <label for="name">Nombre</label>
+        <input type="text" class="form-control " id="name"
+               [(ngModel)]="location.name" name="name"
+               #name="ngModel">
+        </div>
+
+
+      <div class="form-group">
+        <label for="activity">Tipo de actividad</label>
+        <input type="text" class="form-control" id="activity"
+               [(ngModel)]="location.activity" name="activity">
+      </div>
+
+      <div class="form-group">
+        <label for="radio">Radio de la zona</label>
+        <input type="number" class="form-control" id="radio"
+               [(ngModel)]="location.radio" name="radio">
+      </div>
+
+      <div class="form-group" >
+        <label for="address">Direccion</label>
+        <input
+        required type="text" class="form-control" id="address"
+               [(ngModel)]="location.address" name="address">
+      </div>
+
+
+
+
+      <div class="form-group">
+        <label for="color">Tipo de zona</label>
+        <select class="form-control" id="color"
+                required
+                [(ngModel)]="location.color" name="power"
+                #power="ngModel">
+          <option *ngFor="let c of colors" [value]="c">{{c}}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="description">Descripcion</label>
+        <textarea type="text" class="form-control" id="description"
+               [(ngModel)]="location.why" name="description">
+              </textarea>
+      </div>
+
+
+      <!-- <button type="submit" class="btn btn-success" [disabled]="!heroForm.form.valid">Submit</button>
+      <button type="button" class="btn btn-default" (click)="newMap(); heroForm.reset()">New Hero</button> -->
+
+       <div class="form-group">
+        <button class="btn btn-outline-primary btn-block">Submit</button>
+    </div>
+    </form>
+
+  </div>

@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "location": {
+            "id_location": 2,
+            "x": 2.20135448,
+            "y": 41.43598692
+        },
+        "activity": "street",
+        "radio": 2,
+        "name": "el pendulo",
+        "address": {
+            "idAddress": 2,
+            "street": "Meridiana",
+            "number": 212,
+            "cp": 28008,
+            "city": "Barcelona"
+        },
+        "color": "RED",
+        "verified": true,
+        "why": "delincuencia"
+    },
+    {
+        "id": 2,
+        "location": {
+            "id_location": 3,
+            "x": 2.174361,
+            "y": 41.404694
+        },
+        "activity": "street",
+        "radio": 2,
+        "name": "el xulito",
+        "address": {
+            "idAddress": 3,
+            "street": "Mallorca",
+            "number": 229,
+            "cp": 2888,
+            "city": "Barcelona"
+        },
+        "color": "RED",
+        "verified": true,
+        "why": "agresion"
+    },
+    {
+        "id": 3,
+        "location": {
+            "id_location": 4,
+            "x": 2.19598408,
+            "y": 41.45845508
+        },
+        "activity": "parck",
+        "radio": 2,
+        "name": "el bueno",
+        "address": {
+            "idAddress": 4,
+            "street": "Parc Besos",
+            "number": 129,
+            "cp": 34998,
+            "city": "Santa Coloma de Gramenet"
+        },
+        "color": "RED",
+        "verified": true,
+        "why": "agresion"
+    },
+    {
+        "id": 4,
+        "location": {
+            "id_location": 5,
+            "x": 2.166639,
+            "y": 41.486028
+        },
+        "activity": "street",
+        "radio": 2,
+        "name": "el pez",
+        "address": {
+            "idAddress": 5,
+            "street": "Biscaia",
+            "number": 29,
+            "cp": 34958,
+            "city": "Montcada i Reixac"
+        },
+        "color": "GREEN",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 5,
+        "location": {
+            "id_location": 6,
+            "x": 2.15628364,
+            "y": 41.49679748
+        },
+        "activity": "street",
+        "radio": 2,
+        "name": "la paz",
+        "address": {
+            "idAddress": 6,
+            "street": "Bolivia",
+            "number": 29,
+            "cp": 34958,
+            "city": "Ripollet"
+        },
+        "color": "GREEN",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 6,
+        "location": {
+            "id_location": 7,
+            "x": 2.1422063,
+            "y": 41.49625007
+        },
+        "activity": "street",
+        "radio": 2,
+        "name": "la cruz",
+        "address": {
+            "idAddress": 7,
+            "street": "Navas",
+            "number": 34,
+            "cp": 34998,
+            "city": "Cerdanyola del Vallès"
+        },
+        "color": "GREEN",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 7,
+        "location": {
+            "id_location": 8,
+            "x": 2.1422063,
+            "y": 41.49625007
+        },
+        "activity": "street",
+        "radio": 2,
+        "name": "la cruz",
+        "address": {
+            "idAddress": 8,
+            "street": "Industria",
+            "number": 334,
+            "cp": 34918,
+            "city": "Hospitalet de Llobregat (L')"
+        },
+        "color": "PURPLE",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 8,
+        "location": {
+            "id_location": 9,
+            "x": 2.1184922,
+            "y": 41.37529548
+        },
+        "activity": "street",
+        "radio": 2,
+        "name": "la poma",
+        "address": {
+            "idAddress": 9,
+            "street": "Rossello",
+            "number": 134,
+            "cp": 54918,
+            "city": "Hospitalet de Llobregat (L')"
+        },
+        "color": "RED",
+        "verified": false,
+        "why": ""
+    },
+    {
+        "id": 9,
+        "location": {
+            "id_location": 2,
+            "x": 2.033972,
+            "y": 41.503111
+        },
+        "activity": "park",
+        "radio": 2,
+        "name": "el gandhi",
+        "address": {
+            "idAddress": 2,
+            "street": "gran via",
+            "number": 211,
+            "cp": 8008,
+            "city": "Rubi"
+        },
+        "color": "RED",
+        "verified": true,
+        "why": "robo con violencia"
+    },
+    {
+        "id": 10,
+        "location": {
+            "id_location": 3,
+            "x": 2.04829548,
+            "y": 41.49719366
+        },
+        "activity": "Bar",
+        "radio": 2,
+        "name": "petit vaixell",
+        "address": {
+            "idAddress": 3,
+            "street": "pujades",
+            "number": 121,
+            "cp": 8008,
+            "city": "Rubi"
+        },
+        "color": "YELLOW",
+        "verified": true,
+        "why": "violacio"
+    },
+    {
+        "id": 11,
+        "location": {
+            "id_location": 4,
+            "x": 2.04829556,
+            "y": 41.49719366
+        },
+        "activity": "Bar",
+        "radio": 2,
+        "name": "potser",
+        "address": {
+            "idAddress": 4,
+            "street": "llull",
+            "number": 11,
+            "cp": 8008,
+            "city": "Rubi"
+        },
+        "color": "GREEN",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 12,
+        "location": {
+            "id_location": 5,
+            "x": 2.13998777,
+            "y": 41.41971788
+        },
+        "activity": "Disco",
+        "radio": 2,
+        "name": "Arena",
+        "address": {
+            "idAddress": 5,
+            "street": "balmes",
+            "number": 113,
+            "cp": 8008,
+            "city": "Barcelona"
+        },
+        "color": "PURPLE",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 13,
+        "location": {
+            "id_location": 6,
+            "x": 2.10655427,
+            "y": 41.35916298
+        },
+        "activity": "teatro",
+        "radio": 2,
+        "name": "Tiboli",
+        "address": {
+            "idAddress": 6,
+            "street": "mallorca",
+            "number": 123,
+            "cp": 8008,
+            "city": "Hospitalet de Llobregat "
+        },
+        "color": "RED",
+        "verified": true,
+        "why": "asaltos a gays"
+    },
+    {
+        "id": 14,
+        "location": {
+            "id_location": 7,
+            "x": 2.174361,
+            "y": 41.404694
+        },
+        "activity": "comisaria",
+        "radio": 2,
+        "name": "Balmes",
+        "address": {
+            "idAddress": 7,
+            "street": "mallorca",
+            "number": 123,
+            "cp": 8008,
+            "city": "Barcelona "
+        },
+        "color": "PURPLE",
+        "verified": true,
+        "why": "asaltos a gays"
+    },
+    {
+        "id": 15,
+        "location": {
+            "id_location": 1,
+            "x": 2.21164325,
+            "y": 41.42876097
+        },
+        "activity": "calle",
+        "radio": 5,
+        "name": "street",
+        "address": {
+            "idAddress": 1,
+            "street": "Begur",
+            "number": 54,
+            "cp": 14822,
+            "city": "Sant Adrià del Besos"
+        },
+        "color": "GREEN",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 16,
+        "location": {
+            "id_location": 2,
+            "x": 2.19892769,
+            "y": 41.41060751
+        },
+        "activity": "bar",
+        "radio": 5,
+        "name": "dal de tot",
+        "address": {
+            "idAddress": 2,
+            "street": "Berlin",
+            "number": 105,
+            "cp": 11395,
+            "city": "Barcelona"
+        },
+        "color": "YELLOW",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 17,
+        "location": {
+            "id_location": 3,
+            "x": 2.13998777,
+            "y": 41.41971788
+        },
+        "activity": "park",
+        "radio": 4,
+        "name": "turó",
+        "address": {
+            "idAddress": 3,
+            "street": "Av. de Pau Casals",
+            "number": 19,
+            "cp": 10448,
+            "city": "Barcelona"
+        },
+        "color": "PURPLE",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 18,
+        "location": {
+            "id_location": 4,
+            "x": 2.1907958,
+            "y": 41.49607809
+        },
+        "activity": "restaurante",
+        "radio": 2,
+        "name": "el frijol",
+        "address": {
+            "idAddress": 4,
+            "street": "Gracia",
+            "number": 21,
+            "cp": 13963,
+            "city": "Barcelona"
+        },
+        "color": "RED",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 19,
+        "location": {
+            "id_location": 5,
+            "x": 2.1907958,
+            "y": 41.49607809
+        },
+        "activity": "passage",
+        "radio": 2,
+        "name": "passage",
+        "address": {
+            "idAddress": 5,
+            "street": "Palmeres",
+            "number": 68,
+            "cp": 13963,
+            "city": "Barcelona"
+        },
+        "color": "RED",
+        "verified": true,
+        "why": ""
+    },
+    {
+        "id": 20,
+        "location": {
+            "id_location": 6,
+            "x": 2.15447741,
+            "y": 41.49380872
+        },
+        "activity": "bar",
+        "radio": 2,
+        "name": "bala fria",
+        "address": {
+            "idAddress": 6,
+            "street": "Paris",
+            "number": 120,
+            "cp": 11041,
+            "city": "Ripollet"
+        },
+        "color": "GREEN",
+        "verified": true,
+        "why": ""
+    }
+]
